@@ -16,17 +16,17 @@ Examples: Mensaje
     | Dispositivo vinculado con exito, Maria.  |
     | Dispositivo vinculado con exito, Carlos. |
 
-Scenario Outline: 
-Given 
-When 
-Then 
 
-Examples: 
-    |  |
-    |  |
-    |  |
+Scenario Outline: Vinculacion entre usuarios fallida
+Given el usuario presiona el botón de <vincular con otro dispositivo>.
+When el usuario está en la pantalla de menú de la aplicación
+Then el sistema no puede validar la vinculación entre ambos dispositivos 
+And muestra un <mensaje de error> en la vinculación.
 
-Examples: 
-    |  |
-    |  |
-    |  |
+Examples: Vincular con otro dispositivo
+    | vincular con otro dispositivo                                  |
+    | Presione aqui para empezar la vinculacion con otro dispositivo |
+
+Examples: Mensaje
+    | mensaje                                        |
+    | Error en la vinculacion, vuelve a intentarlo.  |
