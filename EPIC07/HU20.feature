@@ -16,6 +16,7 @@ Examples: Mensaje
     | Dispositivo vinculado con exito, Maria.  |
     | Dispositivo vinculado con exito, Carlos. |
 
+
 Scenario Outline: Vinculacion entre usuarios fallida
 Given el usuario presiona el botón de <vincular con otro dispositivo>.
 When el usuario está en la pantalla de menú de la aplicación
