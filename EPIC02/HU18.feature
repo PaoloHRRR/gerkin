@@ -13,6 +13,6 @@ Examples: Texto
     | Algo así podrías escucharme cuando use este programa |
 
 Examples: Voz
-    |  |
-    |  |
-    |  |
+    |                     Voz generada                     |
+    |               Hola, ¿puedes entenderme?              |
+    | Algo así podrías escucharme cuando use este programa |
